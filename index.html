@@ -8,12 +8,11 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <script type="text/javascript" src="script.js" defer></script>
     <title>Document</title>
 </head>
 
 <body>
-
-    <header></header>
     <main>
         <div class="side-bar">
             <div class="logo">
@@ -21,9 +20,9 @@
                 <p>Tumi</p>
             </div>
 
-            <p>Photo by <a href="https://unsplash.com/@jackieboylhart">Jackie Hope</a></p>
+            <p class="image-credits">Photo by <a href="https://unsplash.com/@jackieboylhart">Jackie Hope</a></p>
         </div>
-        <form class="form-sign-up" action="" method="post">
+        <form id="formsu" class="form-sign-up" action="" method="post">
             <p class="title">This is not a real online service! You know you need something like this in your life to
                 help you realize your deepest dreams.</p>
 
@@ -73,14 +72,11 @@
                 </fieldset>
             </div>
             <div class="action">
-                <button type="submit" class="button-action">Create Account</button>
+                <button type="submit" form="formsu" class="button-action">Create Account</button>
                 <p>Already have an account? <a href="">Log in</a></p>
             </div>
         </form>
-
     </main>
-    <footer></footer>
-
 </body>
 
 </html>
