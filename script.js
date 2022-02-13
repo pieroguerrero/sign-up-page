@@ -11,5 +11,7 @@ function setSizes() {
 
 
 
-document.addEventListener('DOMContentLoaded', setSizes);
+//document.addEventListener('DOMContentLoaded', setSizes);
+//window.addEventListener('load', setSizes);
+window.onload = setSizes;
 window.onresize = setSizes;

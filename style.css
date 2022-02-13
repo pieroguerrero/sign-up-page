@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 /*font-family: 'Annie Use Your Telescope', cursive;*/
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
+/* revisar aqui:
+
+https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css/lessons/more-text-styles */
+
 body {
-    font: normal 18px 'ubuntu', 'Annie Use Your Telescope', cursive;
+    font: normal 18px 'Ubuntu', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -67,7 +71,7 @@ main {
 }
 
 .side-bar .logo p {
-    font: bold 6rem 'Archivo Black', sans-serif;
+    font: normal normal 400 6rem 'Archivo Black', sans-serif;
     text-transform: uppercase;
     color: rgb(0, 0, 0);
 }
